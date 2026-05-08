@@ -81,7 +81,7 @@ with col2:
                 try:
                     llm = ChatGroq(
                         api_key=groq_api_key,
-                        model_name="llama3-8b-8192" 
+                        model_name="llama-3.1-8b-instant" 
                     )
                     
                     template = """
