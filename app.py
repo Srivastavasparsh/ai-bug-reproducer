@@ -95,6 +95,7 @@ with col2:
                     1. **Root Cause:** A one-sentence, highly technical explanation of why this crashed.
                     2. **Edge Cases:** A bulleted list of 2-3 specific scenarios or inputs that trigger this bug.
                     3. **Reproduction Test:** A short, executable unit test script to reproduce the error.
+                    CRITICAL INSTRUCTIONS: You must be extremely concise. Keep the Root Cause Diagnosis under 3 sentences. Do not include any conversational filler, introductory text, or concluding remarks. Output strictly the technical diagnosis, edge cases, and the code.
                     """
                     prompt = PromptTemplate(input_variables=["stack_trace"], template=template)
                     debug_chain = prompt | llm | StrOutputParser()
