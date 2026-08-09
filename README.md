@@ -9,7 +9,7 @@ An automated QA developer tool designed to eliminate the "it works on my machine
 
 ## 🚀 Live Demo
 
-> [https://github.com/user-attachments/assets/4af85b86-024f-4537-bf59-f8a75593bd1b]
+> https://github.com/user-attachments/assets/4af85b86-024f-4537-bf59-f8a75593bd1b
 
 ## 🧠 Architecture Flow
 
